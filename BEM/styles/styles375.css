@@ -1,0 +1,321 @@
+.container {
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.header-navigation {
+    display: none;
+}
+
+.header-content__button {
+    display: none;
+}
+
+.hero {
+    height: 476px;
+}
+
+.hero-container {
+    padding: 85px 18px 61px;
+}
+
+.title {
+    font-size: 23px;
+    line-height: 31px;
+}
+
+.hero-content {
+    width:339px;
+}
+
+.hero-paragraph {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.hero-content__button {
+    width: 339px;
+    height: 51px;
+    margin-top: 32px ;
+}
+
+.hero-content__button--transparent {
+    width: 339px;
+    height: 51px;
+    margin-top: 26px ;
+}
+
+.projects-navigation {
+    display: none;
+}
+
+.projects {
+    padding: 36px 18px 30px;
+}
+
+.projects-container {
+    height: 900px;
+}
+
+.title-projects {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.07em;
+}
+
+.projects-paragraph {
+    margin-top: 34px;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    width: 340px;
+}
+
+.projects-images {
+    width: 340px;
+}
+
+.projects-images-nav {
+    display: none;
+}
+
+.title-details {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.projects-box-paragraph {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.projects-details {
+    gap: 0;
+    grid-template-columns: 170px auto;
+}
+
+.projects-images-flip {
+    order: 3;
+    display: flex;
+}
+
+.projects-images-flip-rigth {
+    width: 36px;
+    height: 36px;
+    margin-top: -310px;
+    margin-left: 200px;
+}
+
+.projects-images-flip-left {
+    width: 36px;
+    height: 36px;
+    margin-top: -310px;
+    margin-left: 36px;
+}
+
+.title-control {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.video-control-box {
+    width: 340px;
+}
+
+.play-control {
+    margin-top: -130px;
+}
+
+.play-control img {
+    height: 74px;
+}
+
+.line {
+    margin: 10px 0;
+}
+
+.line-hr {
+    margin-top: 60px;
+}
+
+.control-container {
+    padding: 0 18px 30px;
+    background: #131313;
+}
+
+.control-paragraph-content {
+    width: 340px;
+    font-size: 11px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.control-form {
+    margin: 0;
+}
+
+.control-form-box {
+    margin-top: 61px;
+    width: 340px;
+}
+
+.control-form-box__label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.control-form-box__input {
+    width: 340px;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+
+.control-form-box__button {
+    width: 340px;
+    order: 1;
+    margin-bottom: -60px;
+}
+
+.control-form-container {
+    margin: 0;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-form-checkbox {
+    justify-content: flex-start;
+    width: 340px;
+    height: 84px;
+    color: #FFFFFF;
+}
+
+.types-container {
+    padding: 83px 18px 2px;
+}
+
+.types-card {
+    width: 340px;
+}
+
+.types-card img {
+    width: 340px;
+}
+
+.types-details {
+    width: 270px;
+    margin-left: -72px;
+}
+
+.types-container.measurer {
+    display: none;
+}
+
+.realize {
+    display: none;
+}
+
+.clients {
+    display: none;
+}
+
+.realize-mobile {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -125px;
+}
+
+.title-realize {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #E3B873;
+    margin-bottom: 24px;
+}
+
+.realize-images {
+    padding: 0 17.5px;
+}
+
+.realize-images-flip {
+    display: flex;
+}
+
+.realize-images-flip-rigth {
+    width: 36px;
+    height: 36px;
+    margin-top: -139px;
+    margin-left: 200px;
+}
+
+.realize-images-flip-left {
+    width: 36px;
+    height: 36px;
+    margin-top: -139px;
+    margin-left: 50px;
+}
+
+.questions {
+    margin-top: 0px;
+}
+
+.questions-form-container {
+    padding: 173px 17.5px 30px;
+    width: 375px;
+    height: 690px;
+}
+
+.title-questions {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.questions-form-box__input {
+    width: 340px;
+}
+
+.questions-form-box1__input {
+    width: 340px;
+}
+
+.map-address {
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-img {
+    order: -1;
+    padding: 0 17.5px;
+}
+
+.map-img img {
+    width: 340px;
+}
+
+.map {
+    background-image: none;
+}
+
+.map-overlay {
+    display: none;
+}
+
+.title-map {
+    padding: 30px 17.5px 30px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+footer {
+    display: none;
+}
+
+.map-icon img {
+    height: 39px;
+}
+
+.map-icon {
+    padding-bottom: 49px;
+}
